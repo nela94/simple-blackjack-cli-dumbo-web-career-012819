@@ -33,7 +33,7 @@ def initial_round
 def hit?(card_total)
   prompt_user
   if get_user_input == "h"
-    return (card_total).int + (deal_card).int
+    return card_total() + deal_card()
 
 
 
